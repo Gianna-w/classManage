@@ -4,8 +4,9 @@
 3、查看课程列表
 
 安装并启动：
-1、npm install
-2、npm start
+1、更换自己mogodb地址，连接数据库
+2、npm install
+3、npm start
 
 打包上线操作：
 1、在package.json修改项目启动命令
