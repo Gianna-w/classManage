@@ -10,7 +10,7 @@ const passport = require('passport')
 const app = express();
 
 //连接mongodb
-mongoose.connect("mongodb+srv://Gianna:802907@cluster0-ez7nt.mongodb.net/test?retryWrites=true&w=majority")
+mongoose.connect("your mongodb address")
 .then(() =>{
     console.log("Mongodb connected...")
 }).catch((err) =>{
